@@ -1,6 +1,7 @@
 @extends('layouts.main')
 
 @section('content')
+    <a href="{{route("comics.edit",$comic->id)}}" class="btn btn-primary">Modifica</a>
     <div>
         <img src="{{$comic->thumb}}" alt="{{$comic->title}}">
     </div>
