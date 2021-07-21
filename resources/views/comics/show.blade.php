@@ -10,7 +10,6 @@
         <h4>{{ $comic->type }}</h4>
         <small>{{ $comic->sale_date }}</small> <br>
         <small>Prezzo: {{$comic->price }}&euro;</small>
-        
-
     </div>
+    <a href="{{route("comics.index")}}" class="btn btn-primary">Torna in Comics</a>
 @endsection
