@@ -34,5 +34,6 @@
             <textarea class="form-control" id="description" placeholder="Inserisci l'url dell'immagine" name="description" rows="5"></textarea>
         </div>
         <button type="submit" class="btn btn-primary">Salva</button>
+        <a href="{{route("comics.index")}}" class="btn btn-primary">Torna in Comics</a>
     </form>
 @endsection
